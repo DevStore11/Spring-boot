@@ -1,0 +1,41 @@
+### Criar cliente
+Post http://localhost:8081/clientes
+Content-Type: application/json
+
+{
+    "nome":"Ana",
+    "idade":"19",
+    "sexo":"F"
+}
+
+
+
+###Funcionario
+Post http://localhost:8081/produto
+Content-Type: application/json
+
+{
+    "nomeProduto":"Robson",
+    "stock":"20",
+    "preco":"20000.00"
+}
+
+###
+GET http://localhost:8081/produto
+
+###
+GET http://localhost:8081/pessoa
+ 
+ ###
+ POST url HTTP/1.1
+ header name: header value
+ 
+ content http://localhost:8081/produto
+ Content-Type: application/json
+
+{
+    "nome":"Joao",
+    "idade":"20",
+    "sexo":"M",
+    "salario":"20000.00"
+}
